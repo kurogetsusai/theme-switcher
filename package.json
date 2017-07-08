@@ -1,0 +1,26 @@
+{
+	"name": "theme-switcher",
+	"version": "0.1.0",
+	"description": "A simple JS module to switch CSS files.",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kurogetsusai/theme-switcher.git"
+	},
+	"keywords": [
+		"javascript",
+		"theme"
+	],
+	"author": "Sai Kurogetsu",
+	"license": "Unlicense",
+	"bugs": {
+		"url": "https://github.com/kurogetsusai/theme-switcher/issues"
+	},
+	"homepage": "https://github.com/kurogetsusai/theme-switcher#readme",
+	"devDependencies": {
+		"eslint": "^3.18.0"
+	}
+}

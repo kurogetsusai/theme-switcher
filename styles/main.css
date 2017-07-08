@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 20px;
+	padding: 0;
+	border: 0;
+	font-family: sans-serif;
+}
+
+.button {
+	padding: 16px;
+	border: 0;
+	border-radius: 2px;
+	background-color: #eee;
+	color: #111;
+}
+
+.button {
+	padding: 8px;
+	border-radius: 2px;
+	background-color: #ddd;
+	color: #111;
+	font-family: sans-serif;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	  -webkit-user-select: none;
+	   -khtml-user-select: none;
+	     -moz-user-select: none;
+	      -ms-user-select: none;
+	          user-select: none;
+}
+
+.button:hover {
+	background-color: #eee;
+}

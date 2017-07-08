@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Theme Switcher</title>
+	<link rel="stylesheet" href="styles/main.css">
+	<script type="module" src="main.js"></script>
+	<script>
+(function () {
+	'use strict';
+
+	const themeName = localStorage.getItem('theme') || 'light';
+	const link = document.createElement('link');
+
+	link.id   = 'theme';
+	link.rel  = 'stylesheet';
+	link.href = 'styles/theme-' + themeName + '.css';
+
+	document.getElementsByTagName('head')[0].appendChild(link);
+})();
+	</script>
+</head>
+<body>
+	<h1>Theme Switcher</h1>
+	<span id="theme-switch-prev" class="button">&lt; Prev theme</span>
+	<span id="theme-switch-light" class="button">Light theme</span>
+	<span id="theme-switch-dark" class="button">Dark theme</span>
+	<span id="theme-switch-cyan" class="button">Cyan theme</span>
+	<span id="theme-switch-next" class="button">Next theme &gt;</span>
+</body>
+</html>
